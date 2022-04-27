@@ -23,10 +23,6 @@ if(isset($_POST['Guardar_usuario']))
 }
 
 
-echo  $user_code."<br>";
-echo  $user_cedula."<br>";
-echo  $user_name."<br>";
-echo  $user_celular."<br>";
 
 
 ?>

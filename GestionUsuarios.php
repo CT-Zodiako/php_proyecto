@@ -86,7 +86,7 @@
                                                 <th><?php  echo $row['cedula']?></th>
                                                  
                                                 <th><a href="actualizar.php?id=<?php echo $row['codigo'] ?>" class="btn btn-secondary">Editar</a>
-                                              <a href="delete.php?id=<?php echo $row['codigo'] ?>" class="btn btn-danger">Eliminar</a>
+                                              <a href="eliminar_usuario.php?codigo=<?php echo $row['codigo'] ?>" class="btn btn-danger">Eliminar</a>
                                               </th>
                                                                                
                                             </tr>
